@@ -16,6 +16,7 @@ BuildRequires: libqt4-devel
 BuildRequires: libcurl-devel
 BuildRequires: cmake 
 
+BuildRequires: fatrat-devel = %{version}
 Requires: fatrat = %{version}
 
 %description
@@ -42,3 +43,4 @@ rm -rf %{buildroot}
 %{_libdir}/%{oname}/plugins/libfatrat-czshare.so
 %{_docdir}/%{name}/TRANSLATIONS
 
+%changelog
